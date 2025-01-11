@@ -1,0 +1,11 @@
+framework module AdMelAudioAds {
+  umbrella header "AdMelAudioAds.h"
+  export *
+
+  module * { export * }
+}
+
+module AdMelAudioAds.Swift {
+  header "AdMelAudioAds-Swift.h"
+  requires objc
+}
