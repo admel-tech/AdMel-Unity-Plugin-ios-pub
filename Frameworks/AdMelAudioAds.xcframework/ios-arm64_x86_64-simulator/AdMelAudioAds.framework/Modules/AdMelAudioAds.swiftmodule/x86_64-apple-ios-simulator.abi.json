@@ -1,0 +1,763 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdMelAudioAds",
+    "printedName": "AdMelAudioAds",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdMelAudioAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AdMelAudioAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdMelAudioAds"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "AdMelAudioAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdMelAudioPlugin",
+        "printedName": "AdMelAudioPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initializePlugin",
+            "printedName": "initializePlugin()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)initializePlugin",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC010initializeE0yyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playAudio",
+            "printedName": "playAudio(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)playAudio:",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC04playC0yySPys4Int8VGFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopAudio",
+            "printedName": "stopAudio()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)stopAudio",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC04stopC0yyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPlaying",
+            "printedName": "isPlaying()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)isPlaying",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC9isPlayingSbyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentPosition",
+            "printedName": "getCurrentPosition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)getCurrentPosition",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC18getCurrentPositionSfyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDuration",
+            "printedName": "getDuration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)getDuration",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC11getDurationSfyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProgress",
+            "printedName": "getProgress()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)getProgress",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC11getProgressSfyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentVolume",
+            "printedName": "getCurrentVolume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)getCurrentVolume",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC16getCurrentVolumeSfyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVolume",
+            "printedName": "setVolume(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)setVolume:",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC9setVolumeyySfFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lowerVolume",
+            "printedName": "lowerVolume(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)lowerVolume:",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC11lowerVolumeyySfFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restoreVolume",
+            "printedName": "restoreVolume(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)restoreVolume:",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC13restoreVolumeyySfFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMaxVolume",
+            "printedName": "getMaxVolume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(cm)getMaxVolume",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginC12getMaxVolumeSfyFZ",
+            "moduleName": "AdMelAudioAds",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdMelAudioPlugin",
+                "printedName": "AdMelAudioAds.AdMelAudioPlugin",
+                "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin(im)init",
+            "mangledName": "$s13AdMelAudioAds0abC6PluginCACycfc",
+            "moduleName": "AdMelAudioAds",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdMelAudioAds@objc(cs)AdMelAudioPlugin",
+        "mangledName": "$s13AdMelAudioAds0abC6PluginC",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "initializePlugin",
+        "printedName": "initializePlugin()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)initializePlugin",
+        "mangledName": "$s13AdMelAudioAds16initializePluginyyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "playAudio",
+        "printedName": "playAudio(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)playAudio:",
+        "mangledName": "$s13AdMelAudioAds04playC0yySPys4Int8VGF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopAudio",
+        "printedName": "stopAudio()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)stopAudio",
+        "mangledName": "$s13AdMelAudioAds04stopC0yyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isPlaying",
+        "printedName": "isPlaying()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)isPlaying",
+        "mangledName": "$s13AdMelAudioAds9isPlayingSbyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getCurrentPosition",
+        "printedName": "getCurrentPosition()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getCurrentPosition",
+        "mangledName": "$s13AdMelAudioAds18getCurrentPositionSfyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getDuration",
+        "printedName": "getDuration()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getDuration",
+        "mangledName": "$s13AdMelAudioAds11getDurationSfyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getProgress",
+        "printedName": "getProgress()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getProgress",
+        "mangledName": "$s13AdMelAudioAds11getProgressSfyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getCurrentVolume",
+        "printedName": "getCurrentVolume()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getCurrentVolume",
+        "mangledName": "$s13AdMelAudioAds16getCurrentVolumeSfyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "setVolume",
+        "printedName": "setVolume(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)setVolume:",
+        "mangledName": "$s13AdMelAudioAds9setVolumeyySfF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "lowerVolume",
+        "printedName": "lowerVolume(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)lowerVolume:",
+        "mangledName": "$s13AdMelAudioAds11lowerVolumeyySfF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "restoreVolume",
+        "printedName": "restoreVolume(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)restoreVolume:",
+        "mangledName": "$s13AdMelAudioAds13restoreVolumeyySfF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getMaxVolume",
+        "printedName": "getMaxVolume()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getMaxVolume",
+        "mangledName": "$s13AdMelAudioAds12getMaxVolumeSfyF",
+        "moduleName": "AdMelAudioAds",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/arihide\/admel\/AdMel-Unity-Plugin-ios\/AdMelAudioAds\/AdMelAudioPlugin.swift",
+      "kind": "FloatLiteral",
+      "offset": 223,
+      "length": 4,
+      "value": "-1.0"
+    }
+  ]
+}
